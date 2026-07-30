@@ -1,0 +1,49 @@
+# =============================================================================
+# Hermes Agent — Environment Configuration Template
+# =============================================================================
+# Copy to ~/.hermes/.env on the target machine and fill in your keys.
+#
+# cp hermes-env.template ~/.hermes/.env
+# nano ~/.hermes/.env
+# =============================================================================
+
+# ── LLM Provider ────────────────────────────────────────────────────────────
+# OpenRouter (рекомендуется — доступ ко всем моделям через один API)
+# Получить ключ: https://openrouter.ai/keys
+OPENROUTER_API_KEY=
+
+# ── Telegram Gateway ───────────────────────────────────────────────────────
+# Получить токен у @BotFather в Telegram
+TELEGRAM_BOT_TOKEN=
+# Ваш Telegram user ID (узнать у @userinfobot)
+TELEGRAM_ALLOWED_USERS=143293811
+
+# ── GitHub ─────────────────────────────────────────────────────────────────
+# Personal Access Token (classic) — для пуша в репозиторий
+# Создать: https://github.com/settings/tokens
+GITHUB_TOKEN=
+
+# ── Фикс для Tor (если Tor блокирует HTTP-запросы) ─────────────────────────
+# Раскомментировать если flutter pub get/curl не работают через Tor
+# HTTP_PROXY=
+# HTTPS_PROXY=
+# ALL_PROXY=
+
+# ── SUDO (опционально) ─────────────────────────────────────────────────────
+# Только если нужно разрешить sudo без пароля
+# SUDO_PASSWORD=
+
+# ── Voice / STT (опционально) ──────────────────────────────────────────────
+# VOICE_TOOLS_OPENAI_KEY=
+
+# ── Groq (опционально — для STT) ───────────────────────────────────────────
+# GROQ_API_KEY=
+
+# ── Inquisitor Bot (для отчётов) ──────────────────────────────────────────
+# Bot token в ~/.config/opencode-tg-bot.token
+# Chat ID в ~/.config/opencode-tg-bot.chat (143293811)
+
+# ── Дополнительные сервисы ─────────────────────────────────────────────────
+# FAL_KEY=                    # FAL.ai для генерации изображений
+# EXA_API_KEY=                # AI-поиск
+# FIRECRAWL_API_KEY=          # Парсинг веб-страниц
