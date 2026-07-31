@@ -32,6 +32,7 @@
 | `docs/EVOLUTION-SOP.md` | 8-шаговый Standard Operating Procedure |
 | `docs/AUTONOMOUS-ARCHITECTURE.md` | Архитектура системы: Hermes, Tor, Docker, ParanoidX |
 | `docs/TELEGRAM-GATEWAY.md` | Настройка Telegram-интерфейса с кнопками одобрения |
+| `docs/ALCHEMY-MARKETING-ENGINE.md` | ✨ Формула маркетингового движка Shann³ (для компании Острова) |
 | `configs/hermes-config.yaml` | Аннотированный конфиг Hermes Agent |
 | `configs/hermes-env.template` | Шаблон .env (секреты убраны) |
 | `scripts/bootstrap.sh` | Заклинание вызова на новом устройстве |

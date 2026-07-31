@@ -38,6 +38,8 @@
 │   │   ├── AUTONOMOUS-ARCHITECTURE.md
 │   │   └── TELEGRAM-GATEWAY.md
 │   ├── docs/
+│   │   ├── ALCHEMY-MARKETING-ENGINE.md   # ✨ Shann³ marketing engine formula
+│   │   └── ...
 │   ├── configs/
 │   ├── scripts/
 │   ├── templates/
@@ -51,6 +53,8 @@
     │   ├── AUTONOMOUS-ARCHITECTURE.md
     │   └── TELEGRAM-GATEWAY.md
     ├── docs/
+    │   ├── ALCHEMY-MARKETING-ENGINE.md   # ✨ Shann³ marketing engine formula
+    │   └── ...
     ├── configs/
     ├── scripts/
     ├── templates/
