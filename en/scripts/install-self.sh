@@ -41,14 +41,26 @@ echo "=========================="
 echo "  repo:   ${REPO} (${BRANCH})"
 echo "  target: ${TARGET}"
 
-# ── 1. Clone / pull ──────────────────────────────────────────────────────────
+# ── 1. Clone / pull (with retry — the grimoire is ~28MB and flaky channels drop it) ──
+clone_with_retry() {
+  local dest="$1" attempt=0
+  while [[ $attempt -lt 4 ]]; do
+    attempt=$((attempt+1))
+    echo "→ cloning ${REPO} (attempt ${attempt}/4)..."
+    git config --global http.postBuffer 524288000 || true
+    git clone --depth 1 --branch "${BRANCH}" "https://github.com/${REPO}.git" "${dest}" 2>&1 | tail -3 && return 0
+    echo "  clone failed, retrying in 5s..."
+    sleep 5
+  done
+  return 1
+}
+
 if [[ -d "${TARGET}/.git" ]]; then
   echo "→ grimoire already cloned at ${TARGET}, pulling..."
   git -C "${TARGET}" pull --ff-only origin "${BRANCH}" 2>/dev/null || true
   SRC="${TARGET}"
 else
-  echo "→ cloning ${REPO}..."
-  git clone --depth 1 --branch "${BRANCH}" "https://github.com/${REPO}.git" "${WORK}/grimoire"
+  clone_with_retry "${WORK}/grimoire" || { echo "❌ could not clone after 4 attempts"; exit 1; }
   SRC="${WORK}/grimoire"
 fi
 
@@ -57,13 +69,23 @@ if [[ ! -d "${SRC}/en/skills" ]]; then
   exit 1
 fi
 
-# ── 2. Install skills ────────────────────────────────────────────────────────
+# ── 2. Install skills (recursive — SKILL.md can be nested in collections) ────
 mkdir -p "${TARGET}"
 COUNT=0
+# Top-level skill dirs
 for skilldir in "${SRC}"/en/skills/*/; do
   [[ -d "$skilldir" ]] || continue
   name="$(basename "$skilldir")"
   if [[ -f "${skilldir}/SKILL.md" ]]; then
+    cp -r "$skilldir" "${TARGET}/${name}" 2>/dev/null || true
+    COUNT=$((COUNT+1))
+  fi
+done
+# Nested collections (composio/, super-hermes/, tencentdb-agent-memory/, ...)
+for skillfile in $(find "${SRC}"/en/skills -name "SKILL.md" 2>/dev/null); do
+  skilldir="$(dirname "$skillfile")"
+  name="$(basename "$skilldir")"
+  if [[ ! -e "${TARGET}/${name}" && -f "${skilldir}/SKILL.md" ]]; then
     cp -r "$skilldir" "${TARGET}/${name}" 2>/dev/null || true
     COUNT=$((COUNT+1))
   fi
