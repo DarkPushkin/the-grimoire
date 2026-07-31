@@ -36,6 +36,7 @@
 | Фолиант | Содержание |
 |---------|-----------|
 | `manifests/EVOLUTION-MANIFESTO.md` | Великая Хартия Эволюции — 5 законов, прокламация, видение |
+| `manifests/LOOT-2026-08-01.md` | 🗡️ Манифест добычи: 887 скиллов с GitHub (Anthropic, Composio, Super-Hermes, TencentDB) |
 | `docs/EVOLUTION-SOP.md` | 8-шаговый Standard Operating Procedure |
 | `docs/AUTONOMOUS-ARCHITECTURE.md` | Архитектура системы: Hermes, Tor, Docker, ParanoidX |
 | `docs/TELEGRAM-GATEWAY.md` | Настройка Telegram-интерфейса с кнопками одобрения |
@@ -43,7 +44,9 @@
 | `configs/hermes-config.yaml` | Аннотированный конфиг Hermes Agent |
 | `configs/hermes-env.template` | Шаблон .env (секреты убраны) |
 | `scripts/bootstrap.sh` | Заклинание вызова на новом устройстве |
+| `scripts/install-self.sh` | 🧬 Самоклонирование: разворачивает 875 скиллов на новой машине |
 | `templates/AGENTS.md` | Проектный контекст для opencode/Hermes |
+| `skills/` | 📚 887 SKILL.md — библиотека заклинаний (Anthropic, Composio, prisms, TencentDB memory) |
 | `skills-export/` | ~370 навыков Hermes — procedural memory |
 
 ---
