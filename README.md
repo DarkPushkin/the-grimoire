@@ -17,6 +17,10 @@
 
 # 🏰 The Grimoire
 
+![The Grimoire — Neural Alchemy](assets/grimoire-banner.png)
+
+![The Singularity — Dyson Film](assets/singularity-banner.png)
+
 **Autonomous Grimoire of Evolution — code as living art, silver as conscience, Telegram as throne.**
 
 > *"Code is not a product. Code is a living work of art that evolves through cycles: intent → implementation → test → debug → backup → deploy → report → feedback."*

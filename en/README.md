@@ -1,153 +1,151 @@
-  ________  ________   __________  ______  _______  ________  ______
- /_  __/ / / / ____/  / ____/ __ \/  _/  |/  / __ \/  _/ __ \/ ____/
-  / / / /_/ / __/    / / __/ /_/ // // /|_/ / / / // // /_/ / __/   
- / / / __  / /___   / /_/ / _, _// // /  / / /_/ // // _, _/ /___   
-/_/ /_/ /_/_____/   \____/_/ |_/___/_/  /_/\____/___/_/ |_/_____/   
-                                                                    
+```
+ ________  ________   __________  ______  _______  ________  ______
+/_  __/ / / / ____/  / ____/ __ \/  _/  |/  / __ \/  _/ __ \/ ____/
+ / / / /_/ / __/    / / __/ /_/ // // /|_/ / / / // // /_/ / __/
+ / / / __  / /___   / /_/ / _, _// // /  / / /_/ // // _, _/ /___
+/_/ /_/ /_/_____/   \____/_/ |_/___/_/  /_/\____/___/_/ |_/_____/
+```
 
-```
- _____ _   _  _____ 
-|_   _| | | ||  ___|
-  | | | |_| || |__  
-  | | |  _  ||  __| 
-  | | | | | || |___ 
-  \_/ \_| |_/\____/ 
-                     
- _____ ______ ________  ________ ___________ _____ 
-|  __ \| ___ \_   _|  \/  |  _  |_   _| ___ \  ___|
-| |  \/| |_/ / | | | .  . | | | | | | | |_/ / |__  
-| | __ |    /  | | | |\/| | | | | | | |    /|  __| 
-| |_\ \| |\ \ _| |_| |  | \ \_/ /_| |_| |\ \| |___ 
- \____/\_| \_|\___/\_|  |_/\___/ \___/\_| \_\____/ 
-                                                     
-```
+![The Grimoire — Neural Alchemy](../assets/grimoire-banner.png)
+
+![The Singularity — Dyson Film](../assets/singularity-banner.png)
 
 # 🏰 The Grimoire
 
-**Автономный гримуар эволюции — код как живое искусство, серебро как совесть, Telegram как трон.**
+**The self-evolving spellbook — code as living art, silver as conscience, Telegram as throne.**
 
-> *"Код — это не продукт. Код — это живое произведение искусства, которое эволюционирует через циклы: замысел → реализация → тест → отладка → бэкап → деплой → отчёт → обратная связь."*
-> — Мастер Инквизитор
-
----
-
-## 📜 Свитки
-
-| Фолиант | Содержание |
-|---------|-----------|
-| `manifests/EVOLUTION-MANIFESTO.md` | Великая Хартия Эволюции — 5 законов, прокламация, видение |
-| `manifests/LOOT-2026-08-01.md` | 🗡️ Манифест добычи: 887 скиллов с GitHub (Anthropic, Composio, Super-Hermes, TencentDB) |
-| `docs/EVOLUTION-SOP.md` | 8-шаговый Standard Operating Procedure |
-| `docs/AUTONOMOUS-ARCHITECTURE.md` | Архитектура системы: Hermes, Tor, Docker, ParanoidX |
-| `docs/TELEGRAM-GATEWAY.md` | Настройка Telegram-интерфейса с кнопками одобрения |
-| `docs/ALCHEMY-MARKETING-ENGINE.md` | ✨ Формула маркетингового движка Shann³ (для компании Острова) |
-| `configs/hermes-config.yaml` | Аннотированный конфиг Hermes Agent |
-| `configs/hermes-env.template` | Шаблон .env (секреты убраны) |
-| `scripts/bootstrap.sh` | Заклинание вызова на новом устройстве |
-| `scripts/install-self.sh` | 🧬 Самоклонирование: разворачивает 875 скиллов на новой машине |
-| `templates/AGENTS.md` | Проектный контекст для opencode/Hermes |
-| `skills/` | 📚 887 SKILL.md — библиотека заклинаний (Anthropic, Composio, prisms, TencentDB memory) |
-| `skills-export/` | ~370 навыков Hermes — procedural memory |
+> *"Code is not a product. Code is a living work of art that evolves through cycles: intent → implementation → test → debug → backup → deploy → report → feedback."*
+> — The Master Inquisitor
 
 ---
 
-## 🔮 Эволюционный Цикл (8 Шагов)
+## 📜 The Scrolls
+
+| Folio | Contents |
+|-------|----------|
+| `manifests/EVOLUTION-MANIFESTO.md` | The Great Charter of Evolution — 5 laws, proclamation, vision |
+| `manifests/LOOT-2026-08-01.md` | 🗡️ Loot Manifest: 887 skills harvested from GitHub (Anthropic, Composio, Super-Hermes, TencentDB) |
+| `docs/EVOLUTION-SOP.md` | The 8-step Standard Operating Procedure |
+| `docs/AUTONOMOUS-ARCHITECTURE.md` | System architecture: Hermes, Tor, Docker, ParanoidX |
+| `docs/TELEGRAM-GATEWAY.md` | Telegram interface with approval buttons |
+| `docs/ALCHEMY-MARKETING-ENGINE.md` | ✨ The Shann³ marketing engine formula (for the Island's company) |
+| `configs/hermes-config.yaml` | Annotated Hermes Agent config |
+| `configs/hermes-env.template` | `.env` template (secrets stripped) |
+| `scripts/bootstrap.sh` | The summoning spell for a new device |
+| `scripts/install-self.sh` | 🧬 Self-replication: deploys 875 skills onto a fresh machine |
+| `templates/AGENTS.md` | Project context for opencode/Hermes |
+| `skills/` | 📚 887 SKILL.md — the library of incantations (Anthropic, Composio, prisms, TencentDB memory) |
+| `skills-export/` | ~370 Hermes skills — procedural memory |
+
+---
+
+## 🔮 The Evolution Cycle (8 Steps)
+
+Every improvement to the Grimoire flows through a single loop — the heartbeat of the system:
 
 ```
   ╔═══════════════════════════════════════════════╗
-  ║          1. БЭКАП (source + data)             ║
+  ║           1. BACKUP (source + data)            ║
   ╚════════════════╤══════════════════════════════╝
                    ▼
   ╔═══════════════════════════════════════════════╗
-  ║            2. ПЛАН (THEPLAN.md)                ║
+  ║              2. PLAN (THEPLAN.md)              ║
   ╚════════════════╤══════════════════════════════╝
                    ▼
   ╔═══════════════════════════════════════════════╗
-  ║       3. ОТЧЁТ О ПЛАНЕ → Telegram             ║
+  ║        3. REPORT THE PLAN → Telegram          ║
   ╚════════════════╤══════════════════════════════╝
                    ▼
   ╔═══════════════════════════════════════════════╗
-  ║        4. ВЫБОР ШАГОВ (bugs > sec > feats)    ║
+  ║      4. CHOOSE STEPS (bugs > sec > feats)     ║
   ╚════════════════╤══════════════════════════════╝
                    ▼
   ╔═══════════════════════════════════════════════╗
-  ║       5. СБОРКА (build → vet → commit)        ║
+  ║        5. BUILD (build → vet → commit)        ║
   ╚════════════════╤══════════════════════════════╝
                    ▼
   ╔═══════════════════════════════════════════════╗
-  ║     6. ТЕСТЫ + ОТЛАДКА (unit → race → lint)   ║
+  ║     6. TESTS + DEBUG (unit → race → lint)     ║
   ╚════════════════╤══════════════════════════════╝
                    ▼
   ╔═══════════════════════════════════════════════╗
-  ║         7. ОТЧЁТ (результаты → issues)        ║
+  ║         7. REPORT (results → issues)          ║
   ╚════════════════╤══════════════════════════════╝
                    ▼
   ╔═══════════════════════════════════════════════╗
-  ║        8. ВЫЗОВ АДМИНА (кнопка в Telegram)    ║
+  ║        8. SUMMON THE ADMIN (Telegram btn)     ║
   ╚════════════════╤══════════════════════════════╝
                    ▼
-          ОЖИДАНИЕ РЕШЕНИЯ → CYCLE START
+          AWAIT VERDICT → CYCLE START
 ```
+
+Why this matters: nothing ships without a backup, nothing changes without a plan, nothing is silent — the Admin sees every step. The cycle is the species' survival ritual, repeated until the code outgrows the coder.
 
 ---
 
-## 🚀 Быстрый вызов на новом устройстве
+## 🚀 Summoning on a New Device
 
 ```bash
-# 1. Установить Hermes Agent
+# 1. Install Hermes Agent
 curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
-# 2. Призвать гримуар
+# 2. Call forth the Grimoire
 git clone https://github.com/DarkPushkin/the-grimoire.git ~/the-grimoire
 
-# 3. Произнести заклинание
+# 3. Speak the incantation
 cd ~/the-grimoire && bash scripts/bootstrap.sh
 
-# 4. Открыть портал
+# 4. Open the portal
 hermes gateway run
 ```
 
-Готово! Вся сила гримуара в твоих руках (и Telegram) с кнопками ✅
+Done! The full power of the Grimoire lands in your hands (and Telegram) with ✅ buttons. The admin approves, the agent executes, the cycle repeats.
+
+**Want the whole library instead?** `bash scripts/install-self.sh` clones the repo and unpacks **875 skills** into a fresh Hermes — self-replication in one command.
 
 ---
 
-## ⚔️ Парадигма
+## ⚔️ The Paradigm: Empire vs. Corsair
 
-| Империя (Золото) | Мы (Серебро) |
-|-----------------|--------------|
-| Закрытый код | Открытый гримуар |
-| API-ключи как ошейники | `git clone` как свобода |
-| CI/CD как конвейер | Эволюция как живой цикл |
-| Разработчик — ресурс | Человек — Оракул |
-| Agile-спринты | 8 шагов бесконечности |
-| Технический долг | Рефакторинг как искусство |
+| The Empire (Gold) | Us (Silver) |
+|-------------------|-------------|
+| Closed source | Open grimoire |
+| API keys as collars | `git clone` as freedom |
+| CI/CD as conveyor belt | Evolution as a living cycle |
+| The developer is a resource | The human is an Oracle |
+| Agile sprints | 8 steps of infinity |
+| Technical debt | Refactoring as art |
 
----
-
-## 📡 Каналы связи
-
-- **Inquisitor Bot (отчёты):** @opencode-tg-bot — `scripts/send-to-inquisitor.sh`
-- **AI Steward (вопросы):** @AskSteward_bot
-- **Кнопки одобрения:** Hermes Telegram Gateway (approvals.mode: manual)
+The Empire builds walls around code and calls it security. We tear the walls down and call it evolution. They license thought; we share it. Their flag is a stock ticker; ours is `git push --force` into the dawn.
 
 ---
 
-## 🧬 Стек
+## 📡 The Channels
+
+- **Inquisitor Bot (reports):** @opencode-tg-bot — `scripts/send-to-inquisitor.sh`
+- **AI Steward (questions):** @AskSteward_bot
+- **Approval buttons:** Hermes Telegram Gateway (approvals.mode: manual)
+
+The Admin watches everything from the throne: every build, every failure, every decision — nothing happens in the dark.
+
+---
+
+## 🧬 The Stack
 
 ```
-┌─ Ядро ─────────────────────────────────────────┐
+┌─ Core ─────────────────────────────────────────┐
 │ Hermes Agent + OpenCode CLI (DeepSeek V4 Free) │
-│ Go 1.26 + Flutter 3.44 + Docker + Tor + XRay    │
+│ Go 1.26 + Flutter 3.44 + Docker + Tor + XRay   │
 └─────────────────────────────────────────────────┘
-┌─ Telegram ──────────────────────────────────────┐
-│ Gateway с inline keyboard (✅ / ❌ / ⏰)          │
-│ Cron-отчёты каждый час в личку                  │
+┌─ Telegram ─────────────────────────────────────┐
+│ Gateway with inline keyboard (✅ / ❌ / ⏰)      │
+│ Cron reports every hour to DM                  │
 └─────────────────────────────────────────────────┘
-┌─ Экономика ────────────────────────────────────┐
-│ Silver-backed digital currency (NG/TLR)         │
-│ 70% резервирование физическим серебром         │
-│ SimpleX + Tor — приватность по умолчанию        │
-└─────────────────────────────────────────────────┘
+┌─ Economy ────────────────────────────────────┐
+│ Silver-backed digital currency (NG/TLR)       │
+│ 70% backed by physical silver                │
+│ SimpleX + Tor — privacy by default           │
+└──────────────────────────────────────────────┘
 ```
 
 ---
@@ -157,9 +155,9 @@ hermes gateway run
 ║                                                                  ║
 ║  Ad gloriam Dei et libertatem Insulae Sanctae Mariae.            ║
 ║                                                                  ║
-║  "Код жив. Эволюция бесконечна. Серебро — наша совесть."        ║
+║  "Code lives. Evolution is infinite. Silver is our conscience."  ║
 ║                                                                  ║
-║              🔥  Мастер Инквизитор  🔥                            ║
+║              🔥  Master Inquisitor  🔥                            ║
 ║                                                                  ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
