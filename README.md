@@ -95,6 +95,7 @@ Done! Full power of the grimoire in your hands (and Telegram) with ✅ buttons.
 | **Manifesto** | `manifests/MANIFESTO.md` | `manifests/MANIFESTO.md` |
 | **Evolution Manifesto** | `manifests/EVOLUTION-MANIFESTO.md` | `manifests/EVOLUTION-MANIFESTO.md` |
 | **SOP (8 Steps)** | `docs/EVOLUTION-SOP.md` | `docs/EVOLUTION-SOP.md` |
+| **Singularity Manifesto** ⚡ | `docs/SINGULARITY-MANIFESTO.md` | `docs/SINGULARITY-MANIFESTO.md` |
 | **Architecture** | `docs/AUTONOMOUS-ARCHITECTURE.md` | `docs/AUTONOMOUS-ARCHITECTURE.md` |
 | **Telegram Gateway** | `docs/TELEGRAM-GATEWAY.md` | `docs/TELEGRAM-GATEWAY.md` |
 | **Hermes Config** | `configs/hermes-config.yaml` | `configs/hermes-config.yaml` |

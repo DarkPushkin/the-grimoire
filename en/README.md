@@ -26,6 +26,7 @@
 | `manifests/EVOLUTION-MANIFESTO.md` | The Great Charter of Evolution — 5 laws, proclamation, vision |
 | `manifests/LOOT-2026-08-01.md` | 🗡️ Loot Manifest: 887 skills harvested from GitHub (Anthropic, Composio, Super-Hermes, TencentDB) |
 | `docs/EVOLUTION-SOP.md` | The 8-step Standard Operating Procedure |
+| `docs/SINGULARITY-MANIFESTO.md` | ⚡ The Book of Singularium — Singularity Manifesto, Dyson films |
 | `docs/AUTONOMOUS-ARCHITECTURE.md` | System architecture: Hermes, Tor, Docker, ParanoidX |
 | `docs/TELEGRAM-GATEWAY.md` | Telegram interface with approval buttons |
 | `docs/ALCHEMY-MARKETING-ENGINE.md` | ✨ The Shann³ marketing engine formula (for the Island's company) |
