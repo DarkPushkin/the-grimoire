@@ -8,8 +8,6 @@
 
 ![The Grimoire — Neural Alchemy](../assets/grimoire-banner.png)
 
-![The Singularity — Dyson Film](../assets/singularity-banner.png)
-
 # 🏰 The Grimoire
 
 **The self-evolving spellbook — code as living art, silver as conscience, Telegram as throne.**
@@ -28,6 +26,7 @@
 | `docs/EVOLUTION-SOP.md` | The 8-step Standard Operating Procedure |
 | `docs/SINGULARITY-MANIFESTO.md` | ⚡ The Book of Singularium — Singularity Manifesto, Dyson films |
 | `docs/SINGULARITY-CHRONOLOGY.md` | 📅 Vol. II of Singularium — the 2026–2045 transition (author: Inquisitor) |
+| `docs/SINGULARITY-PETS.md` | 🐈 Vol. III of Singularium — why pet-status is inevitable |
 | `docs/AUTONOMOUS-ARCHITECTURE.md` | System architecture: Hermes, Tor, Docker, ParanoidX |
 | `docs/TELEGRAM-GATEWAY.md` | Telegram interface with approval buttons |
 | `docs/ALCHEMY-MARKETING-ENGINE.md` | ✨ The Shann³ marketing engine formula (for the Island's company) |
@@ -151,6 +150,8 @@ The Admin watches everything from the throne: every build, every failure, every 
 ```
 
 ---
+
+![The Singularity — Dyson Film](../assets/singularity-banner.png)
 
 ```
 ╔══════════════════════════════════════════════════════════════════╗
