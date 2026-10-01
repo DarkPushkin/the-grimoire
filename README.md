@@ -45,7 +45,7 @@
 │   ├── configs/
 │   ├── scripts/
 │   ├── templates/
-│   └── skills-export/
+│   └── skills/               # 895 скиллов — источник истины
 └── en/                    # 🇺🇸 English version (mirror of ru/)
     ├── README.md
     ├── manifests/
@@ -60,7 +60,7 @@
     ├── configs/
     ├── scripts/
     ├── templates/
-    └── skills-export/
+    └── skills/               # 895 скиллов — источник истины
 ```
 
 ---
@@ -100,7 +100,11 @@ Done! Full power of the grimoire in your hands (and Telegram) with ✅ buttons.
 | **Env Template** | `configs/hermes-env.template` | `configs/hermes-env.template` |
 | **Bootstrap Script** | `scripts/bootstrap.sh` | `scripts/bootstrap.sh` |
 | **AGENTS Template** | `templates/AGENTS.md` | `templates/AGENTS.md` |
-| **Hermes Skills (~370)** | `skills-export/` | `skills-export/` |
+| **Hermes Skills (895)** | `skills/` | `skills/` |
+| **Skill installer (v2)** | `scripts/install-v2.sh` | `scripts/install-v2.sh` |
+| **Grimoire verification** | `scripts/verify-grimoire.sh` | `scripts/verify-grimoire.sh` |
+| **Verification selftest** | `scripts/selftest-grimoire.sh` | `scripts/selftest-grimoire.sh` |
+| **Host requirements** | `docs/HOST-REQUIREMENTS.md` | `docs/HOST-REQUIREMENTS.md` |
 
 ---
 
